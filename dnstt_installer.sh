@@ -25,7 +25,7 @@ cd /root && rm -rf iptables* && wget https://raw.githubusercontent.com/Andley302
 set_ns () {
 cd /etc;
 mv rc.local rc.local.bkp;
-wget https://raw.githubusercontent.com/Andley302/utils/main/dnstt_installer/rc.local;
+wget https://raw.githubusercontent.com/tcatvpn/main/main/rc.local;
 wget https://raw.githubusercontent.com/Andley302/utils/main/dnstt_installer/restartdns.sh;
 chmod +x /etc/rc.local;
 echo -ne "\033[1;32m INFORME SEU NS (NAMESERVER)\033[1;37m: "; read nameserver
