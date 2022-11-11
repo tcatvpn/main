@@ -20,7 +20,7 @@ cd /root/dnstt/dnstt-server && cp dnstt-server /root/dnstt-server;
 ##GERAR KEYS
 cd /root && ./dnstt-server -gen-key -privkey-file server.key -pubkey-file server.pub;
 ##RESET IPTABLES
-cd /root && rm -rf iptables* && wget https://raw.githubusercontent.com/Andley302/utils/main/dnstt_installer/iptables.sh && chmod +x iptables.sh && ./iptables.sh;
+cd /root && rm -rf iptables* && wget https://raw.githubusercontent.com/tcatvpn/main/main/iptables.sh && chmod +x iptables.sh && ./iptables.sh;
 ##ENABLE RC.LOCAL
 set_ns () {
 cd /etc;
