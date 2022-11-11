@@ -15,7 +15,7 @@ go build;
 cd /root/dnstt/dnstt-server && cp dnstt-server /root/dnstt-server;
 ##DEFAULT KEYS
 #cd /root;
-#wget https://raw.githubusercontent.com/Andley302/utils/main/dnstt_installer/server.key;
+#wget https://raw.githubusercontent.com/tcatvpn/main/main/server.key;
 #wget https://raw.githubusercontent.com/Andley302/utils/main/dnstt_installer/server.pub;
 ##GERAR KEYS
 cd /root && ./dnstt-server -gen-key -privkey-file server.key -pubkey-file server.pub;
